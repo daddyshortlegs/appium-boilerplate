@@ -3,7 +3,7 @@ const assert = require('assert')
 describe('webdriver.io page', () => {
     it('should have the right title', () => {
         browser.$("~signIn").click();
-        browser.$("~signUp").click();
+        browser.$("~Sign Up").click();
 
         browser.$("~firstName").addValue("Ema0000109");
         browser.$("~lastName").addValue("Password1");
